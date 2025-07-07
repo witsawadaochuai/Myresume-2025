@@ -99,35 +99,50 @@
                 <h3>Technical skills</h3>
                 <ul>
                     <li><strong>Programing:</strong> Python (Experienced); JavaScript, HTML, CSS, SQL, n8n (Basic)</li>
-                    <li><strong>Frameworks/Library:</strong> React, Node.js,Flask, LangChain (Basic)</li>
-                    <li><strong>Tools:</strong> Git, Docker, VS Code, Qdrant, AWS (Bedrock, S3) (Basic)</li>
-                    <li><strong>ฐานข้อมูล:</strong> MySQL, MongoDB Atlas</li>
+                    <li><strong>Frameworks/Library:</strong> React, Node.js, Flask, LangChain (Basic)</li>
+                    <li><strong>Tools:</strong> Git, Docker, VS Code (Basic)</li>
+                    <li><strong>Database:</strong> MySQL, MongoDB Atlas, Qdrant, AWS (Bedrock, S3 Bucket) (Basic)</li>
                 </ul>
             </div>
             <div class="skill-category">
-                <h3>Orther</h3>
-                <ul>
-                    <li>การสื่อสาร</li>
-                    <li>การแก้ไขปัญหา</li>
-                    <li>การทำงานเป็นทีม</li>
-                    <li>ภาษาอังกฤษ (ดีมาก/ดี)</li>
-                </ul>
+                <h3>Soft Skills</h3>
+                <li>Team Collaboration, Problem-Solving, Adaptability, Time Management, Responsibility, Communication, Self-Learning</li>
+            </div>
+            <div class="skill-category">
+                <h3>Language</h3>
+                <li>Thai (Native); English (Intermediate listening & speaking, proficient reading & writing, CEFR B1); Japanese & Chinese <br>(Fair speaking & listening)</li>
             </div>
         </section>
 
         <section class="projects">
-            <h2>โครงการ/ผลงาน (ถ้ามี)</h2>
+            <h2>Project</h2>
             <div class="project">
-                <h3>ชื่อโครงการ 1</h3>
-                <p><strong>คำอธิบาย:</strong> โครงการนี้คือ [อธิบายสั้นๆ เกี่ยวกับโครงการ].</p>
-                <p><strong>เทคโนโลยีที่ใช้:</strong> [ระบุเทคโนโลยี เช่น React, Node.js, MongoDB]</p>
-                <p><strong>ลิงก์:</strong> <a href="https://yourproject1.com" target="_blank">ดูโครงการ</a> | <a href="https://github.com/yourusername/project1" target="_blank">GitHub</a></p>
+                <h3>OctaPoem-AI</h3>
+                <p><strong>Description:</strong> This project is a Flask-based web application designed to assist with Thai poetry or lyric writing by suggesting rhyming words. It leverages the pythainlp library for Thai language processing tasks such as word tokenization, transliteration, and accessing a Thai word corpus. Additionally, it integrates a pre-trained Thai masked language model (wangchanberta) to provide AI-generated rhyming suggestions.
+                    <br><br>The application allows users to input up to four lines of text. For each line, it identifies the last word and then offers a variety of rhyming suggestions for the subsequent line. These suggestions are generated from three main sources:</p>
+                        <ul>
+                            <li>• AI Model: Words suggested by the wangchanberta model based on context.</li>
+                            <li>• Pronunciation-based Rhymes: Words that rhyme based on their phonetic ending.</li>
+                            <li>• Vocabulary-based Rhymes: Words found in a custom vocabulary file that match the target word's sound and form.</li>
+                        </ul>
+                <p><strong>Technology used:</strong>
+                    <ul>
+                        <li>• Python: The primary programming language for the entire application.</li>
+                        <li>• Flask: A lightweight Python web framework used to build the web application, handle API requests, and serve the index.html file.</li>
+                        <li>• Flask-CORS: A Flask extension to enable Cross-Origin Resource Sharing, allowing the frontend (presumably served from a different origin or for local development) to interact with the backend API.</li>
+                        <li>PyThaiNLP: A powerful Python library for Thai Natural Language Processing. It's used for:
+                            <ul>
+                                <li>• Word Tokenization: Breaking down sentences into individual words (word_tokenize).</li>
+                            </ul>
+                        </li>
+                    </ul></p>
+                <p><strong>Link:</strong> <a href="https://github.com/witsawadaochuai/OctaPoem-AI.git" target="_blank">GitHub</a></p>
             </div>
             <div class="project">
                 <h3>ชื่อโครงการ 2</h3>
-                <p><strong>คำอธิบาย:</strong> [อธิบายสั้นๆ เกี่ยวกับโครงการ].</p>
-                <p><strong>เทคโนโลยีที่ใช้:</strong> [ระบุเทคโนโลยี]</p>
-                <p><strong>ลิงก์:</strong> <a href="https://yourproject2.com" target="_blank">ดูโครงการ</a> | <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a></p>
+                <p><strong>Description:</strong> [อธิบายสั้นๆ เกี่ยวกับโครงการ].</p>
+                <p><strong>Technology used:</strong> [ระบุเทคโนโลยี]</p>
+                <p><strong>Link:</strong> <a href="https://yourproject2.com" target="_blank">ดูโครงการ</a> | <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a></p>
             </div>
         </section>
     </div>
